@@ -7,7 +7,7 @@ int main(int argc, char *argv[])
     //创建 ros 节点句柄(非必须)
     ros::NodeHandle n;
     //控制台输出 hello world
-    ROS_INFO("hello world!");
+    ROS_INFO("Alexandedr said: hello world!");
 
     return 0;
 }

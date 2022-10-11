@@ -52,3 +52,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hellopack" TYPE FILE FILES "/home/alexander/Documents/Projects/LearnROS/hellospace/src/hellopack/package.xml")
 endif()
 
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/hellopack" TYPE PROGRAM FILES "/home/alexander/Documents/Projects/LearnROS/hellospace/build/hellopack/catkin_generated/installspace/print_hipython.py")
+endif()
+

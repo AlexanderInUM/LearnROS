@@ -1,0 +1,30 @@
+######### C++ #######
+cd 自定义空间名称
+catkin_make #this is a MUST everytime you change the source file
+
+## In another terminal
+#roscore
+
+cd 工作空间
+source ./devel/setup.bash
+rosrun 包名 C++节点
+
+
+####### Python #######
+chmod +x 自定义文件名.py
+#编辑 ros 包下的 CamkeList.txt 文件
+catkin_install_python(PROGRAMS scripts/自定义文件名.py
+  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+)
+
+cd 自定义空间名称
+catkin_make
+
+# In another terminal
+roscore
+
+cd 工作空间
+source ./devel/setup.bash
+rosrun 包名 自定义文件名.py
+
+
