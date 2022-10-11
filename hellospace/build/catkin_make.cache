@@ -1,0 +1,2 @@
+hellopack
+-DCATKIN_DEVEL_PREFIX=/home/alexander/Documents/Projects/LearnROS/hellospace/devel -DCMAKE_INSTALL_PREFIX=/home/alexander/Documents/Projects/LearnROS/hellospace/install -G Unix Makefiles
