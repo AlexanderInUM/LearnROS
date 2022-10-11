@@ -10,6 +10,9 @@ source ./devel/setup.bash
 rosrun 包名 C++节点
 
 
+
+
+
 ####### Python #######
 chmod +x 自定义文件名.py
 #编辑 ros 包下的 CamkeList.txt 文件
@@ -28,3 +31,13 @@ source ./devel/setup.bash
 rosrun 包名 自定义文件名.py
 
 
+
+
+
+####### Run Launch file  #######
+gedit ./work_space/src/pack_dir/src/launch_dir/launchfile.xml
+
+cd 自定义空间名称
+catkin_make
+
+roslaunch 包名 launch文件名

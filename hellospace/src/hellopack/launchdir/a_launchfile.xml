@@ -1,0 +1,8 @@
+<launch>
+    <!-- <node pkg="PACK_NAME" type="SPECIFIC_NODE_NAME" name="RANDOM/CUSTOM_NAME" output="screen" /> -->
+    <node pkg="hellopack" type="print_hello" name="hello" output="screen" />
+    <node pkg="hellopack" type="print_hipython.py" name="hi" output="screen" />
+    <node pkg="turtlesim" type="turtlesim_node" name="t1"/>
+    <node pkg="turtlesim" type="turtle_teleop_key" name="key1" />
+</launch>
+
