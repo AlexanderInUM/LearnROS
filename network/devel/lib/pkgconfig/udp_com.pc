@@ -1,0 +1,8 @@
+prefix=/home/alexander/Documents/Projects/LearnROS/network/devel
+
+Name: udp_com
+Description: Description of udp_com
+Version: 1.1.2
+Cflags: -I/home/alexander/Documents/Projects/LearnROS/network/devel/include -I/home/alexander/Documents/Projects/LearnROS/network/src/udp/include
+Libs: -L${prefix}/lib -ludp_com
+Requires: roscpp std_msgs nodelet message_generation

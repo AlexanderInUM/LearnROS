@@ -1,0 +1,8 @@
+# CMake generated Testfile for 
+# Source directory: /home/alexander/Documents/Projects/LearnROS/network/src/udp
+# Build directory: /home/alexander/Documents/Projects/LearnROS/network/build/udp
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test(_ctest_udp_com_rostest_test_udp_com.test "/home/alexander/Documents/Projects/LearnROS/network/build/catkin_generated/env_cached.sh" "/home/alexander/anaconda3/envs/carla/bin/python3" "/opt/ros/noetic/share/catkin/cmake/test/run_tests.py" "/home/alexander/Documents/Projects/LearnROS/network/build/test_results/udp_com/rostest-test_udp_com.xml" "--return-code" "/home/alexander/anaconda3/envs/carla/bin/python3 /opt/ros/noetic/share/rostest/cmake/../../../bin/rostest --pkgdir=/home/alexander/Documents/Projects/LearnROS/network/src/udp --package=udp_com --results-filename test_udp_com.xml --results-base-dir \"/home/alexander/Documents/Projects/LearnROS/network/build/test_results\" /home/alexander/Documents/Projects/LearnROS/network/src/udp/test/udp_com.test ")
+set_tests_properties(_ctest_udp_com_rostest_test_udp_com.test PROPERTIES  _BACKTRACE_TRIPLES "/opt/ros/noetic/share/catkin/cmake/test/tests.cmake;160;add_test;/opt/ros/noetic/share/rostest/cmake/rostest-extras.cmake;52;catkin_run_tests_target;/opt/ros/noetic/share/rostest/cmake/rostest-extras.cmake;80;add_rostest;/opt/ros/noetic/share/rostest/cmake/rostest-extras.cmake;100;_add_rostest_google_test;/home/alexander/Documents/Projects/LearnROS/network/src/udp/CMakeLists.txt;184;add_rostest_gtest;/home/alexander/Documents/Projects/LearnROS/network/src/udp/CMakeLists.txt;0;")

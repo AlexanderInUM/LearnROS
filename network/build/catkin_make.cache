@@ -1,0 +1,2 @@
+udp
+-DCATKIN_DEVEL_PREFIX=/home/alexander/Documents/Projects/LearnROS/network/devel -DCMAKE_INSTALL_PREFIX=/home/alexander/Documents/Projects/LearnROS/network/install -G Unix Makefiles
